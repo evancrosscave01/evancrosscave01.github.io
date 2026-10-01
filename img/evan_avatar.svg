@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1146"/><stop offset=".55" stop-color="#3b1fa8"/><stop offset="1" stop-color="#0aa5c9"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#5eead4" stop-opacity=".55"/><stop offset="1" stop-color="#5eead4" stop-opacity="0"/></radialGradient>
+<linearGradient id="head" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7ff"/><stop offset="1" stop-color="#b9c6e6"/></linearGradient>
+<linearGradient id="visor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1330"/><stop offset="1" stop-color="#1a2150"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8d9fd0"/><stop offset="1" stop-color="#4b5aa0"/></linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity=".08" stroke-width="2"><path d="M0 256H1024M0 512H1024M0 768H1024M256 0V1024M512 0V1024M768 0V1024"/></g>
+<circle cx="512" cy="470" r="400" fill="url(#glow)"/>
+<!-- shoulders -->
+<path d="M170 1024c0-130 110-210 342-210s342 80 342 210z" fill="url(#body)"/>
+<path d="M430 800h164v60c0 30-164 30-164 0z" fill="#6c7bb8"/>
+<rect x="470" y="905" width="84" height="26" rx="13" fill="#5eead4"/>
+<!-- neck -->
+<rect x="450" y="730" width="124" height="90" rx="20" fill="#7f90c6"/>
+<!-- antenna -->
+<rect x="500" y="110" width="24" height="120" rx="12" fill="#cfd8f2"/>
+<circle cx="512" cy="96" r="38" fill="#fbbf24"/><circle cx="512" cy="96" r="60" fill="#fbbf24" opacity=".25"/>
+<!-- ears -->
+<rect x="176" y="400" width="70" height="170" rx="30" fill="#8d9fd0"/><rect x="778" y="400" width="70" height="170" rx="30" fill="#8d9fd0"/>
+<rect x="196" y="440" width="30" height="90" rx="15" fill="#5eead4"/><rect x="798" y="440" width="30" height="90" rx="15" fill="#5eead4"/>
+<!-- head -->
+<rect x="224" y="210" width="576" height="540" rx="170" fill="url(#head)"/>
+<rect x="224" y="210" width="576" height="540" rx="170" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="6"/>
+<!-- visor -->
+<rect x="285" y="332" width="454" height="250" rx="110" fill="url(#visor)"/>
+<rect x="285" y="332" width="454" height="250" rx="110" fill="none" stroke="#5eead4" stroke-opacity=".7" stroke-width="5"/>
+<!-- eyes -->
+<g fill="#5eead4"><rect x="365" y="410" width="100" height="100" rx="38"/><rect x="559" y="410" width="100" height="100" rx="38"/></g>
+<g fill="#ecfeff"><circle cx="400" cy="440" r="17"/><circle cx="594" cy="440" r="17"/></g>
+<!-- mouth -->
+<path d="M420 650q92 62 184 0" fill="none" stroke="#3b1fa8" stroke-width="22" stroke-linecap="round"/>
+<!-- cheek panels -->
+<circle cx="290" cy="640" r="20" fill="#f472b6" opacity=".85"/><circle cx="734" cy="640" r="20" fill="#f472b6" opacity=".85"/>
+<!-- forehead rivets -->
+<circle cx="340" cy="270" r="9" fill="#8d9fd0"/><circle cx="684" cy="270" r="9" fill="#8d9fd0"/>
+<!-- chest badge -->
+<rect x="395" y="855" width="0" height="0"/>
+<text x="512" y="985" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="44" letter-spacing="8" fill="#0d1330" opacity=".85">AI·AGENT</text>
+</svg>
